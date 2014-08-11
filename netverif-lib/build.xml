@@ -1,0 +1,7 @@
+<taskdef name="javaflow"
+  classname="org.apache.commons.javaflow.ant.AntRewriteTask">
+</taskdef>
+
+<javaflow srcdir="build/classes" dstdir="build/classes">
+  <include name="**/*.class" />
+</javaflow>
